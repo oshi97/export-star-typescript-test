@@ -1,0 +1,15 @@
+{
+  "name": "export-star",
+  "version": "1.0.0",
+  "description": "test repo for https://github.com/import-js/eslint-plugin-import/issues/2281#issuecomment-954872275",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}

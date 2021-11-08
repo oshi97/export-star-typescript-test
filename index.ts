@@ -1,4 +1,5 @@
 export interface Duplicate {
   bar: number
 }
-export * from './star-module';
+export * as AnswersConfig from '@yext/answers-core';
+export * from './bob'

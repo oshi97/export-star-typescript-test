@@ -12,11 +12,5 @@ module.exports = {
   ],
   rules: {
     "export-star/no-duplicate-identifiers": 1
-  },
-  settings: {
-    'export-star/no-duplicate-identifiers-files': [
-      'dupe.ts',
-      'test.ts'
-    ]
   }
 };

@@ -1,6 +1,7 @@
 export interface Duplicate {
   bar: number
 }
+export const Duplicate = 123;
 type bob5 = {}
 export { bob5 }
 export type atype = number

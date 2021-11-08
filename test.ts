@@ -7,8 +7,9 @@ export type atype = number
 interface baka {}
 export { baka }
 export * from './star-module';
-export * from 'bob';
+export * from './bob';
 export const lol = 123;
+export function lol() {}
 export class hi {}
 
 export function whatever() {}
@@ -22,3 +23,4 @@ export { bob, bob2 as bob3 };
 export const { name1, name2: bar, abc, five: guys } = o;
 
 export let name1, name2, nameN;
+export const guys = 5;

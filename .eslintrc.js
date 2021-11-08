@@ -4,16 +4,19 @@ module.exports = {
   ignorePatterns: ['*.js'],
   plugins: [
     '@typescript-eslint',
-    'export-rule'
+    'export-star'
   ],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
   ],
   rules: {
-    "export-rule/no-template-literals": 1
+    "export-star/no-duplicate-identifiers": 1
   },
   settings: {
-    'import/resolver': 'typescript'
+    'export-star/no-duplicate-identifiers-files': [
+      'dupe.ts',
+      'test.ts'
+    ]
   }
 };

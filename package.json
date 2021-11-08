@@ -15,8 +15,7 @@
   },
   "dependencies": {
     "@yext/answers-core": "^1.3.2",
-    "eslint-plugin-export-rule": "file:eslint-plugin-export-rule",
-    "eslint-plugin-export-star-test": "file:yo-test",
+    "eslint-plugin-export-star": "file:eslint-plugin-export-star",
     "requireindex": "^1.2.0"
   },
   "devDependencies": {
